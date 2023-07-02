@@ -63,7 +63,8 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 DEBUG = 'DEV' in os.environ
 
 # ALLOWED_HOSTS = ['8000-neillcllghn-react-django-1ey1aziz1e.us2.codeanyapp.com']
-ALLOWED_HOSTS = ['localhost', 'djangorestframework-project1.herokuapp.com']
+ALLOWED_HOSTS = ['8000-neillcllghn-react-django-1ey1aziz1e.us2.codeanyapp.com', 
+                 'localhost', 'djangorestframework-project1.herokuapp.com']
 
 
 # Application definition
